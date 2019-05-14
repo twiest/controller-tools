@@ -316,6 +316,25 @@
   version = "v0.2.0"
 
 [[projects]]
+  digest = "1:a3532033fa95ed8776736c7ecc00da517d06d5b1392bd4e9590d956b7eea5c9d"
+  name = "sigs.k8s.io/controller-tools"
+  packages = [
+    "pkg/crd",
+    "pkg/crd/markers",
+    "pkg/deepcopy",
+    "pkg/genall",
+    "pkg/loader",
+    "pkg/loader/testutils",
+    "pkg/markers",
+    "pkg/rbac",
+    "pkg/typescaffold",
+    "pkg/webhook",
+  ]
+  pruneopts = "UT"
+  revision = "89f6323968811d706792d5554704366fda41e14d"
+  version = "v0.2.0-alpha.1"
+
+[[projects]]
   digest = "1:7719608fe0b52a4ece56c2dde37bedd95b938677d1ab0f84b8a7852e4c59f849"
   name = "sigs.k8s.io/yaml"
   packages = ["."]
@@ -338,6 +357,16 @@
     "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1",
     "k8s.io/apimachinery/pkg/apis/meta/v1",
     "k8s.io/apimachinery/pkg/runtime/schema",
+    "sigs.k8s.io/controller-tools/pkg/crd",
+    "sigs.k8s.io/controller-tools/pkg/crd/markers",
+    "sigs.k8s.io/controller-tools/pkg/deepcopy",
+    "sigs.k8s.io/controller-tools/pkg/genall",
+    "sigs.k8s.io/controller-tools/pkg/loader",
+    "sigs.k8s.io/controller-tools/pkg/loader/testutils",
+    "sigs.k8s.io/controller-tools/pkg/markers",
+    "sigs.k8s.io/controller-tools/pkg/rbac",
+    "sigs.k8s.io/controller-tools/pkg/typescaffold",
+    "sigs.k8s.io/controller-tools/pkg/webhook",
     "sigs.k8s.io/yaml",
   ]
   solver-name = "gps-cdcl"
